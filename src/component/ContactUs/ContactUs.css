@@ -1,0 +1,194 @@
+/* .lk-ContactUS{
+    position: relative;
+} */
+.lk-contact-ground-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../../assets/img/contact-bg.jpg);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+   
+}
+.lk-contact-title{
+    margin-top: -170px;
+}
+.lk-contact-img-h3{
+    color: #ee626b;
+    font-weight: 700;
+    text-align: center;
+}
+.lk-contact-img-h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lk-contact-part{
+    /* padding: 100px 120px; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top:-220px ;
+    
+}
+.lk-contact-part-one{
+    width: 47%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 43px;
+}
+.lk-contact-map{
+    width: 100%;
+    border-radius: 10px;
+}
+.lk-contactUs-cards{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 55px;
+}
+.lk-contactUs-card-s{
+    width: 275px;
+    height: 110px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: "Poppins", sans-serif;
+}
+.lk-contact-info-h4{
+    color: #1e1e1e;
+    font-size: 20px;
+}
+.lk-contact-info-h5{
+    color: #aaaaaa;
+    font-weight: 400;
+}
+.lk-contact-form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding:30px;
+    gap: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+.lk-contact-form-lable{
+    color: #3a3a3a;
+}
+.lk-contact-form-input{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    border: none;
+}
+.lk-contact-form-input::placeholder{
+    font-size: 15px;
+    text-indent: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.lk-contact-textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    color: #aaaaaa;
+    font-size: 15px;
+    padding-left: 20px;
+    background-color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    border: none;
+}
+.lk-contact-form-button{
+    background-color: #1e1e1e;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.4s;
+    border: none;
+}
+.lk-contact-form-button:hover{
+    background-color: #f35525;
+    color: white;
+    transition: 0.4s;
+    border: none;
+
+}
+@media(max-width:1200px){
+    .lk-contact-part{
+        padding: 0 120px;
+    }
+    .lk-contact-part-one,.lk-contact-form{
+        width: 100%;
+    }
+    .lk-contactUs-cards,.lk-contact-form-input,.lk-contact-textarea {
+        width: 100%;
+    }
+    .lk-contactUs-card-s{
+        width: 350px;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+}
+@media(max-width:768px){
+    .lk-contact-img-h2{
+        font-size: 30px;
+        font-weight: 400;
+        width: 260px;
+    }
+    .lk-contact-part{
+        padding: 0 40px;
+        top: 40%;
+        gap: 30px;
+    }
+    .lk-contactUs-card-s {
+        width: 260px;
+        padding: 0 0;
+        justify-content: center;
+    }
+    .lk-contact-form{
+        padding: 10px;
+        gap: 10px;
+    }
+    .lk-contact-ground-img{
+        height: 80vh;
+    }
+    .lk-contact-part-one{
+        gap: 30px;
+    }
+    .lk-contactUs-cards{
+        margin-top: 0;
+    }
+
+    
+}

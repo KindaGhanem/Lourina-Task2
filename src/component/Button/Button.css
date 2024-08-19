@@ -1,0 +1,64 @@
+.lk-nav-s-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lk-nav-s-t-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+.lk-nav-par-t{
+    height: 40px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.lk-nav-par-t-offer{
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.lk-nav-par-t-offer p{
+    text-indent: 27px;
+}
+.lk-nav-par-t p{
+    text-indent: 20px;
+}
+.lk-nav-s-t-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    right: -30px;
+    background-color: #f35525;
+}
+.LK-NAV-icon-calender{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   color: white;
+}
+.lk-nav-s-t-icon-offer{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    right: -40px;
+    background-color: #f35525;
+}
